@@ -5,11 +5,11 @@ return [
     // 服务器地址
     'hostname'       => 'localhost',
     // 数据库名
-    'database'       => 'allen2018',
+    'database'       => 'minprogramshop',
     // 用户名
     'username'       => 'root',
     // 密码
-    'password'       => '123456',
+    'password'       => '188632',
     // 端口
     'hostport'        => '',
     // 连接dsn
