@@ -237,6 +237,6 @@ return [
     'view_replace_str'=>[
         "__PUBLIC__"=> "/minprogramshop/public",
         "__ATTACHS__" => "/minprogramshop/attachs",
-        "__ROOT__" => "/minprogramshop"
+        "__ROOT__" => "/minprogramshop",
     ]
 ];

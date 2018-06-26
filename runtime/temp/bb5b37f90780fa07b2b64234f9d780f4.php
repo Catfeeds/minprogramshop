@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1529650091;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1529646179;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1530002057;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530002237;}*/ ?>
 ﻿<!DOCTYPE html>
 <html dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>微点应用</title>
-		<meta name="keywords" content="微点应用,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
-		<meta name="description" content="微点应用-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
+		<title>温格科技</title>
+		<meta name="keywords" content="温格科技,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
+		<meta name="description" content="温格科技-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/welcome.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/common.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/joincss.css">
@@ -28,7 +28,7 @@
 			<div class="wrapper">
 				<a href="#" target="_self">
 					<div class="m-topLogo ">
-						<h1> 微点应用</h1>
+						<h1> 温格科技</h1>
 					</div>
 				</a>
 				<div class="m-topNav ">
@@ -106,7 +106,7 @@
 					<div class="group_info">
 						<div class="vertical">
 							<div STYLE="color: #FFF;font-size: 45px;line-height: 68px;font-weight: 100;!important; " class="info_img">
-								微点应用小程序
+								温格科技小程序
 								<BR/> 国内领先、免费的小程序产品
 							</div>
 							<div STYLE="color: #9a9ca8;font-size: 15px;line-height: 68px" class="info_img">
@@ -276,7 +276,7 @@
 						<p class="img"><img src="__PUBLIC__/styles/picture/free.png" width="50%"/></p>
 						<p class="text">免费试用</p>
 						<p class="summary">
-							微点应用承诺所有产品免费试用，免除您的后顾之忧
+							温格科技承诺所有产品免费试用，免除您的后顾之忧
 
 						</p>
 					</li>
@@ -288,7 +288,7 @@
 <section class="home-row-32" style="background:#eff4f5" id="floor1">
 	<div class="wrap" style="padding-left: 16px;">
 		<div class="m-section__head">
-			<p class="u-title big black center">微点应用解决方案</p>
+			<p class="u-title big black center">温格科技解决方案</p>
 			<p class="u-summary center" style="    margin-top: 20px;">
 				国内领先、免费、最全的小程序产品，助您畅享小程序流量红利
 			</p>
@@ -305,7 +305,7 @@
 							<div class="pricing-row1-item list<?=$val->orderby?>" style="padding-top: 15px; padding-bottom: 15px;">
 								<img style="height: 140px;" src="__ATTACHS__/uploads/<?=getImg($val->photo)?>">
 								<div class="member"><?=$val->title?></div>
-								<div class="seat">微点应用,打造行业领先价值</div>
+								<div class="seat">温格科技,打造行业领先价值</div>
 							</div>
 							<a href="" target="_blank" class="f1-h">
 								<p class="g-tac f1-t1"><?=$val->title?></p>
@@ -329,8 +329,8 @@
 <section class="indexMod module1" id="floor2">
 
 	<div class="m-section-times__head" style="padding-top: 90px;padding-bottom: 50px;text-align: center">
-		<span class="u-title big black center">微点应用小程序案例</span>
-		<p style="padding-top: 25px" class="u-summary center">微点应用拥有丰富的场景应用，一键生成自己的专属微信小程序 </p>
+		<span class="u-title big black center">温格科技小程序案例</span>
+		<p style="padding-top: 25px" class="u-summary center">温格科技拥有丰富的场景应用，一键生成自己的专属微信小程序 </p>
 	</div>
 
 	<div class="projectDesc">
@@ -777,16 +777,16 @@
 					<dl>
 						<dt>联系我们</dt>
 						<dd>
-							<a href="javascript:;">联系电话：15169991113</a>
+							<a href="javascript:;">联系电话：18200539226</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">QQ：67930603</a>
+							<a href="javascript:;">QQ：861136242</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">微信：yanervip</a>
+							<a href="javascript:;">微信：Brian_YSQ</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">地址：微点应用小程序研发中心</a>
+							<a href="javascript:;">地址：四川成都成华区国光一环大厦</a>
 						</dd>
 					</dl>
 				</div>
@@ -802,7 +802,7 @@
 					<div class="links">
 						<p class="line copyright">
 							<span class="slide">
-							Copyright (c)2015 - 2017 微点应用版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
+							Copyright (c)2015 - 2017 温格科技版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
 						</p>
 					</div>
 				</div>
@@ -819,7 +819,7 @@
 
 
 		<div id="toolitembar">
-			<a href="http://wpa.qq.com/msgrd?v=3&uin=67930603&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
+			<a href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
 				<span>在线客服</span>
 			</a>
 			<a href="tel:15169991113" id="toolitembar-phone"><i class="icon-call"></i>

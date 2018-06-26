@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\index\index.html";i:1529648248;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\left.html";i:1529649584;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\index\index.html";i:1529981894;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\left.html";i:1529649584;}*/ ?>
 
 <!DOCTYPE html>
 <html>
@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="renderer" content="webkit">
-	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta http-equiv="Cache-Control" content  no-siteapp" />
 	<title><?=$member->nick_dltitle?>后台管理中心</title>
 	<link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">

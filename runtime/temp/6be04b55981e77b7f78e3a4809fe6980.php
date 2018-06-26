@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\member\usertext.html";i:1529649747;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1529646344;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\member\usertext.html";i:1529649747;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1530002703;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +13,7 @@
 
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>微点应用后台管理中心</title>
+    <title>温格科技后台管理中心</title>
 
     <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">

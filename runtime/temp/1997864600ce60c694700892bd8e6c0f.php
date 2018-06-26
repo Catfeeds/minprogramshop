@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:76:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\money\recharge.html";i:1529911108;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1529646344;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:76:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\money\recharge.html";i:1530002688;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1530002703;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +13,7 @@
 
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>微点应用后台管理中心</title>
+    <title>温格科技后台管理中心</title>
 
     <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
 
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>微点应用后台管理中心</title>
+    <title>温格科技后台管理中心</title>
 
     <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
@@ -109,7 +109,7 @@
                         </ol>
                     </div>
                 <div class="ibox-content" style="margin-top:17px;" class="weixin-form">
-          <iframe src="/phpwxpay/order.php?memberid=383" frameborder="0" width="100%" height="300"></iframe>
+                      <iframe src="/phpwxpay/order.php?memberid=" frameborder="0" width="100%" height="300"></iframe>
                 </div>
                 </div>
 
