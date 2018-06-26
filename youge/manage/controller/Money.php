@@ -27,6 +27,7 @@ class Money extends  Common{
     public function lists(){
 		$member_id =  (int) $this->member_info->member_id;
 		if($this->request->method() == "POST"){
+			
         }else{
 			$this->assign('member_id',$this->member_info->member_id);
             $this->assign('moblie',$this->member_info->mobile);

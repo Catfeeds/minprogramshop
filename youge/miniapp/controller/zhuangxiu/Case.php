@@ -4,7 +4,7 @@ use app\miniapp\controller\Common;
 use app\common\model\zhuangxiu\CaseModel;
 
 
-class Case extends Common {
+class Case extends Common{
     
     public function index() {
         $where = $search = [];

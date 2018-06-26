@@ -15,6 +15,7 @@ class Pay extends \think\Model
 		define('WXPAY_MCHID', "");//微信商户号MCHID
 		define('WXPAY_KEY', "");//微信商户自定义32位KEY
 		define('WXPAY_APPSECRET', "");//微信公众号appsecret
+		
 		vendor('wxpay.WxPay_Api');
 		vendor('wxpay.WxPay_NativePay');
 	}

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\member\index.html";i:1529637942;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1529645868;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\member\index.html";i:1529637942;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1529646179;}*/ ?>
 ﻿<!DOCTYPE html>
 <html dir="ltr">
 	<head>
@@ -72,8 +72,8 @@
 											</ul>
 				</div>
 								<div class="m-login ">
-					<a href="/__ROOT__/manage/passport/login" class="u-btn signin">登录</a>
-					<a href="/__ROOT__/manage/passport/register" class="u-btn signup">注册</a>
+					<a href="__ROOT__/manage/passport/login" class="u-btn signin">登录</a>
+					<a href="__ROOT__/manage/passport/register" class="u-btn signup">注册</a>
 				</div>
 							</div>
 		</div>
@@ -492,7 +492,7 @@
 			<a href="javascript:;" id="toolitembar-info"><i class="icon-info"></i>
 				<span>查看演示</span>
 			</a>
-			<a href="manage/passport/register.html" id="toolitembar-signin"><i class="icon-description"></i>
+			<a href="__ROOT__/manage/passport/register.html" id="toolitembar-signin"><i class="icon-description"></i>
 				<span>免费注册</span>
 			</a>
 			<a href="javascript:;" id="back-top"><i class="icon-chevron-thin-up"></i>
