@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\about\index.html";i:1529636678;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1529646179;}*/ ?>
-﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\about\index.html";i:1530080890;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530072003;}*/ ?>
+<!DOCTYPE html>
 <html dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>微点应用</title>
-		<meta name="keywords" content="微点应用,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
-		<meta name="description" content="微点应用-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
+		<title>温格科技</title>
+		<meta name="keywords" content="温格科技,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
+		<meta name="description" content="温格科技-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/welcome.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/common.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/joincss.css">
@@ -17,7 +17,6 @@
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/layer.css">
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery.bxslider.min.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/js/layer.js"></script>
 	</head>
 	<body>
 		<style>
@@ -26,9 +25,9 @@
 		</style>
 		<div class="g-topNav moveDown" style="top: 0px;">
 			<div class="wrapper">
-				<a href="#" target="_self">
+				<a href="#" target="_self">	
 					<div class="m-topLogo ">
-						<h1> 微点应用</h1>
+						<h1> 温格科技</h1>
 					</div>
 				</a>
 				<div class="m-topNav ">
@@ -105,16 +104,16 @@
         <div class="about-title">关于我们</div>
         <ul>
             <li class="about-content" style="text-indent:2em">
-微点应用专注于微信小程序开发与推广。在微信小程序逐步走上成熟，也给各个行业带来了特别庞大的流量红利。
+温格科技专注于微信小程序开发与推广。在微信小程序逐步走上成熟，也给各个行业带来了特别庞大的流量红利。
 行业如何分享这块的流量红利，通过微信赚得金矿呢？那么必然需要靠微信小程序的来完成自己线上的布局，小程序具备 小、快、精、便的特点是旅游行业的线上最佳选择！
-目前开发了微点应用微信小程序托管平台，帮助您快速布局线上，一键安装您的业务利器！            </li>
+目前开发了温格科技微信小程序托管平台，帮助您快速布局线上，一键安装您的业务利器！            </li>
                <li style="height: 30px;width: 100%"></li>
             <li class="about_info">
-                <div class="about_item">客户服务热线：15169991113</div>
-                <div class="about_item">联系客服：<a style="color: #00a0e9"  href="http://wpa.qq.com/msgrd?v=3&uin=67930603&site=qq&menu=yes">点击咨询</a></div>
-                <div class="about_item">客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=67930603&site=qq&menu=yes">67930603</a></div>
-                <div class="about_item">客服微信：15169991113</div>
-                <div class="about_item">QQ交流群：67930603</div>
+                <div class="about_item">客户服务热线：18200539226</div>
+                <div class="about_item">联系客服：<a style="color: #00a0e9"  href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes">点击咨询</a></div>
+                <div class="about_item">客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes">861136242</a></div>
+                <div class="about_item">客服微信：18200539226</div>
+                <div class="about_item">QQ交流群：719475212</div>
                 <div class="about_item">工作时间：9:00-18:00（周一到周五）</div>
             </li>
             <li>
@@ -246,16 +245,16 @@
 					<dl>
 						<dt>联系我们</dt>
 						<dd>
-							<a href="javascript:;">联系电话：15169991113</a>
+							<a href="javascript:;">联系电话：18200539226</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">QQ：67930603</a>
+							<a href="javascript:;">QQ：861136242</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">微信：yanervip</a>
+							<a href="javascript:;">微信：Brian_YSQ</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">地址：微点应用小程序研发中心</a>
+							<a href="javascript:;">地址：四川成都成华区国光一环大厦</a>
 						</dd>
 					</dl>
 				</div>
@@ -271,7 +270,7 @@
 					<div class="links">
 						<p class="line copyright">
 							<span class="slide">
-							Copyright (c)2015 - 2017 微点应用版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
+							Copyright (c)2017 - 2018 温格科技版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
 						</p>
 					</div>
 				</div>
@@ -288,10 +287,10 @@
 
 
 		<div id="toolitembar">
-			<a href="http://wpa.qq.com/msgrd?v=3&uin=67930603&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
+			<a href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
 				<span>在线客服</span>
 			</a>
-			<a href="tel:15169991113" id="toolitembar-phone"><i class="icon-call"></i>
+			<a href="tel:18200539226" id="toolitembar-phone"><i class="icon-call"></i>
 				<span>电话咨询</span>
 			</a>
 			<a href="javascript:;" id="toolitembar-info"><i class="icon-info"></i>

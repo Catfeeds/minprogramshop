@@ -1,12 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\index\main.html";i:1529651218;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1529650601;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\index\main.html";i:1530002528;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1530083818;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="renderer" content="webkit">
-	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<title>微点应用后台管理中心</title>
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+	<title>温格科技后台管理中心</title>
 	<link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/login.min.css" rel="stylesheet">
@@ -45,10 +45,10 @@
 
                         欢迎访问
                         <strong class="green">
-                            iamguao小程序管理后台
+                            温格科技小程序管理后台
                             <small>(v1.0)</small>
                         </strong>,
-                        官方电话：15520449931
+                        官方电话：18200539226
                     </div>
                 </div>
             </a>

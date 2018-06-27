@@ -1,5 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1530002057;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530002237;}*/ ?>
-﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1530066963;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530072003;}*/ ?>
+<!DOCTYPE html>
 <html dir="ltr">
 	<head>
 		<meta charset="utf-8">
@@ -17,7 +17,6 @@
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/layer.css">
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery.bxslider.min.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/js/layer.js"></script>
 	</head>
 	<body>
 		<style>
@@ -26,7 +25,7 @@
 		</style>
 		<div class="g-topNav moveDown" style="top: 0px;">
 			<div class="wrapper">
-				<a href="#" target="_self">
+				<a href="#" target="_self">	
 					<div class="m-topLogo ">
 						<h1> 温格科技</h1>
 					</div>
@@ -365,7 +364,7 @@
 		<div class="m-section-times">
 			<div class="m-section-times__head">
 				<span class="u-title big black center">适用行业</span>
-				<p style="padding-top: 25px" class="u-summary center">微点应用拥有丰富的场景应用，为不同行业提供小程序核心功能 </p>
+				<p style="padding-top: 25px" class="u-summary center">温格科技拥有丰富的场景应用，为不同行业提供小程序核心功能 </p>
 			</div>
 			<div class="scenes wrap">
 				<ul class="clearfix" style="width: 1080px;">
@@ -523,9 +522,9 @@
 	<div class="g-section__main">
 		<div class="m-section-choice">
 			<div class="m-section__head">
-				<p class="u-title big black center">有前瞻性的企业，都选择了微点应用</p>
+				<p class="u-title big black center">有前瞻性的企业，都选择了温格科技</p>
 				<p class="u-summary center">
-					来自互联网金融、电商、医疗、O2O、在线教育、企业服务等多个领域的企业接入了微点应用小程序管理系统
+					来自互联网金融、电商、医疗、O2O、在线教育、企业服务等多个领域的企业接入了温格科技小程序管理系统
 				</p>
 			</div>
 			<div class="m-section__body">
@@ -542,7 +541,7 @@
 		<div class="footer-action" data-id="g-footer-guide-1" style="">
 			<div class="text">现在注册，即可免费试用所有产品</div>
 			<div class="op-btns">
-				<a href="manage/passport/register.html" class="bt" hotrep="hp.footer.guide.reg">免费注册</a>
+				<a href="__ROOT__/manage/passport/register.html" class="bt" hotrep="hp.footer.guide.reg">免费注册</a>
 			</div>
 		</div>
 		<svg class="action-bg" xmlns="http://www.w3.org/2000/svg">
@@ -802,7 +801,7 @@
 					<div class="links">
 						<p class="line copyright">
 							<span class="slide">
-							Copyright (c)2015 - 2017 温格科技版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
+							Copyright (c)2017 - 2018 温格科技版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
 						</p>
 					</div>
 				</div>
@@ -822,7 +821,7 @@
 			<a href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
 				<span>在线客服</span>
 			</a>
-			<a href="tel:15169991113" id="toolitembar-phone"><i class="icon-call"></i>
+			<a href="tel:18200539226" id="toolitembar-phone"><i class="icon-call"></i>
 				<span>电话咨询</span>
 			</a>
 			<a href="javascript:;" id="toolitembar-info"><i class="icon-info"></i>

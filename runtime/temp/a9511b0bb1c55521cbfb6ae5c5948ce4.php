@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\index\index.html";i:1529981894;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\left.html";i:1529649584;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\index\index.html";i:1530063317;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;s:73:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\left.html";i:1530062990;}*/ ?>
 
 <!DOCTYPE html>
 <html>
@@ -74,12 +74,14 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="inviteL">
-                   <!--  <a href="/home/invite/index.html?id=282" target="_blank" >
+                <!--                
+                 <div class="inviteL">
+                    <a href="/home/invite/index.html?id=282" target="_blank" >
                         <img src="__PUBLIC__/home/images/invite/la.png"> 
                         <span class="inviteName">邀请朋友得￥56消费红包！</span><span class="inviteDot"></span>
-                    </a>-->
-                </div>
+                     </a>
+                  </div> 
+                -->
             </div>
         </div>
     </nav>

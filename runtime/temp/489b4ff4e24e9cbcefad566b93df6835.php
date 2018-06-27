@@ -1,12 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\login\index.html";i:1529650659;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1529650601;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\login\index.html";i:1530002686;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1530002687;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="renderer" content="webkit">
-	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<title>微点应用后台管理中心</title>
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+	<title>温格科技后台管理中心</title>
 	<link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/login.min.css" rel="stylesheet">
@@ -102,7 +102,7 @@
     
     <div class="join_table" style="z-index: 999;opacity: 0.9;">
 
-        <div class="register-title">微点应用管理中心</div>
+        <div class="register-title">温格科技管理中心</div>
 
         <form role="form"  action="<?=url('login/loging')?>" method="post" >
 

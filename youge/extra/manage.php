@@ -34,37 +34,37 @@ return [
             ],
         ],
     ],
-    'member' => [
-        'name' => '账户管理',
-        'icon' => 'fa-user',
-       'menu' => [
-            'miniapp' => [
-                'name' => '账户管理',
-                'link' => '/manage/member/index',
+   //  'member' => [
+   //      'name' => '账户管理',
+   //      'icon' => 'fa-user',
+   //     'menu' => [
+   //          'miniapp' => [
+   //              'name' => '账户管理',
+   //              'link' => '/manage/member/index',
 				
-                'is_show' => 1, //是否显示菜单
-                 'is_sub' => 0, //是否显示下级菜单
-                 'sub' => [
-                     [ 'name' => '账户管理', 'link' => '/manage/member/index', 'is_show' => 0,], 
-					 [ 'name' => '快速充值', 'link' => '/manage/money/recharge', 'is_show' => 1,], 					 
-                ],
-            ],
-			'recharge' => [
-                'name' => '快速充值',
-                'link' => '/manage/money/recharge',
-                'is_show' => 1, //是否显示菜单
-                'is_sub' => 0, //是否显示下级菜单
-                'sub' => [],
-            ],
-			'lists' => [
-                'name' => '充值订单',
-                'link' => '/manage/money/lists',
-                'is_show' => 1, //是否显示菜单
-                'is_sub' => 0, //是否显示下级菜单
-                'sub' => [],
-            ],
-       ],
-    ],
+   //              'is_show' => 1, //是否显示菜单
+   //               'is_sub' => 0, //是否显示下级菜单
+   //               'sub' => [
+   //                   [ 'name' => '账户管理', 'link' => '/manage/member/index', 'is_show' => 0,], 
+			// 		 [ 'name' => '快速充值', 'link' => '/manage/money/recharge', 'is_show' => 1,], 					 
+   //              ],
+   //          ],
+			// 'recharge' => [
+   //              'name' => '快速充值',
+   //              'link' => '/manage/money/recharge',
+   //              'is_show' => 1, //是否显示菜单
+   //              'is_sub' => 0, //是否显示下级菜单
+   //              'sub' => [],
+   //          ],
+			// 'lists' => [
+   //              'name' => '充值订单',
+   //              'link' => '/manage/money/lists',
+   //              'is_show' => 1, //是否显示菜单
+   //              'is_sub' => 0, //是否显示下级菜单
+   //              'sub' => [],
+   //          ],
+   //     ],
+   //  ],
 	
 	 // 'daili' => [
     //    'name' => '代理商资料',

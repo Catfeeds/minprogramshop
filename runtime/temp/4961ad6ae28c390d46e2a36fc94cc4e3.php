@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\miniappshop\miappdetail.html";i:1529647405;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1529646344;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\miniappshop\miappdetail.html";i:1530081217;s:68:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\layout.html";i:1530062533;s:75:"D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\public\header.html";i:1529636749;}*/ ?>
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +13,7 @@
 
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>微点应用后台管理中心</title>
+    <title>温格科技后台管理中心</title>
 
     <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
@@ -90,9 +90,8 @@
                        style="margin-right: 2%;" class="btn btn-primary btn-outline">试用(<?=$detail->expire_day?>)天
                     </a>
 
-                    <a href="<?=url('miniappshop/buy',['miniapp_id'=>$detail->miniapp_id,'type'=>1,'member_miniapp_id'=>$member_miniapp_id]);?>"
-                       style="margin-right: 2%;" class="btn btn-primary btn-outline">
-                        立即购买
+                    <a href="#" style="margin-right: 2%;" class="btn btn-primary btn-outline">
+                       由于直接购买模板可能会造成需求纠纷，不支持线上购买，请联系相关人员详谈
                     </a>
                     <?php }else{?>
                     <a href="<?=url('miniappshop/buy',['miniapp_id'=>$detail->miniapp_id,'type'=>2,'member_miniapp_id'=>$member_miniapp_id]);?>"

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:76:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\news\news\index.html";i:1503555818;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1530083818;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\miniapp\describe\index.html";i:1503555818;s:67:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\layout.html";i:1530002687;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,47 +32,16 @@
 <body class="gray-bg">
 	<div class="wrapper wrapper-content animated fadeInRight">
     <!-- PAGE CONTENT BEGINS -->
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>搜索</h5>
-                </div>
-                <div class="ibox-content">
-                    <div class="row">
-                        <div class="table-responsive">
-                            <form class="form-search" method="get" action="<?=url('news.news/index')?>" role="form">
-                                <table>
-                                    <tr>
-                                        <td>动态标题:<input class="form-control" name="title" id="title" value="" type="text" placeholder="请输入动态标题" style=" width:200px"/></td>
-                                        <td>
-                                            <div class="input-group">
-                                                <button type="submit" style="margin-top: 42%" class="btn form-control btn-sm btn-primary">
-                                                    搜索
-                                                </button>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="col-xs-12">
             <div class="ibox-content">
                 <div class="row">
                     <div class="tableTools-container">
-                        <a title="添加动态管理" href="<?=url('news.news/create')?>" class="btn btn-sm btn-success"><i
-                                class=" fa fa-plus"></i>添加动态管理</a>
-                        <a mini="list" for="mini_list" title="批量删除动态管理" href="<?=url('news.news/delete')?>"
+                        <a title="添加小程序描述" href="<?=url('miniapp.describe/create',['miniapp_id'=>$miniapp->miniapp_id])?>" class="btn btn-sm btn-success"><i
+                                class=" fa fa-plus"></i>添加小程序描述</a>
+                        <a mini="list" for="mini_list" title="批量删除小程序描述" href="<?=url('miniapp.describe/delete')?>"
                            class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>批量删除</a>
-
                     </div>
                     <div class="table-responsive">
-
                         <table id="simple-table" class="table table-striped">
                             <thead>
                             <tr>
@@ -83,8 +52,10 @@
                                     </label>
                                 </th>
                                 <th>ID</th>
-                                <th>标题</th>
-                                <th>标题2（显示在列表页）</th>
+                                <th>小程序</th>
+                                <th>描述内容</th>
+                                <th>图片</th>
+                                <th>排序</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -94,40 +65,37 @@
                                 <tr>
                                     <td class="center">
                                         <label class="pos-rel">
-                                            <input id="news_id_<?=$val->news_id;?>" name="news_id[]"
-                                                   value="<?=$val->news_id;?>" type="checkbox" class="ace"/>
+                                            <input id="describe_id_<?=$val->describe_id;?>" name="describe_id[]"
+                                                   value="<?=$val->describe_id;?>" type="checkbox" class="ace"/>
                                             <span class="lbl"></span>
                                         </label>
                                     </td>
-                                    <td><?= $val->news_id ?></td>
-                                    <td><?=$val->title2?></td>
-                                    <td><?=$val->title?></td>
+                                    <td><?= $val->describe_id ?></td>
+                                    <td><?=$val->miniapp_id?></td>
+                                    <td><textarea class="form-control"><?=$val->describe?></textarea></td>
+                                    <td><?=empty($val->photo) ? '' : "<img width='80' src='/attachs/uploads/$val->photo'/>" ?></td>
+                                    <td><?=$val->orderby?></td>
                                     <td>
                                         <div class="hidden-sm hidden-xs btn-group">
-                                            <a title="编辑动态管理" href="<?=url('news.news/edit','news_id='.$val->news_id)?>"
+                                            <a title="编辑小程序描述"
+                                               href="<?=url('miniapp.describe/edit','describe_id='.$val->describe_id)?>"
                                                class="btn btn-xs btn-info"><i class=" fa fa-edit bigger-120"></i>编辑</a>
-                                            <a title="删除动态管理" mini="act"
-                                               href="<?=url('news.news/delete','news_id='.$val->news_id)?>"
+                                            <a title="删除小程序描述" mini="act"
+                                               href="<?=url('miniapp.describe/delete','describe_id='.$val->describe_id)?>"
                                                class="btn btn-xs btn-warning"><i
                                                     class="fa fa-trash bigger-120"></i>删除</a>
                                         </div>
                                     </td>
                                 </tr>
                                 <?php } ?>
-
                                 </tbody>
                             </form>
                         </table>
-
                         <div>
                             <?php echo $page; ?>
                         </div>
                     </div><!-- /.row -->
-
-
                 </div><!-- /.main-container -->
-
-
             </div>
         </div>
     </div>

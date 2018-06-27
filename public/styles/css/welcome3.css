@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 ::selection {
     background: #00D7D5;
     color: #fff
@@ -665,20 +665,7 @@ input {
     background: #FF697B !important
 }
 
-#back-top:before, #toolitembar-phone:before, #toolitembar-signin:before, #toolitembar-support:before, #toolitembar-info:before {
-    content: "V• 恭候多时~";
-    position: absolute;
-    right: 67px;
-    top: 0;
-    line-height: 60px;
-    white-space: nowrap;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .6);
-    padding: 0 10px;
-    display: none;
-    font-size: 15px;
-    font-family: '微软雅黑'
-}
+toolitembar-info
 
 #toolitembar-phone:before {
     content: "请拨 15169991113"

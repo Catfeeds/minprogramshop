@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\shop\detail.html";i:1529637499;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1529646179;}*/ ?>
-﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\shop\detail.html";i:1530077587;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530072003;}*/ ?>
+<!DOCTYPE html>
 <html dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>微点应用</title>
-		<meta name="keywords" content="微点应用,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
-		<meta name="description" content="微点应用-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
+		<title>温格科技</title>
+		<meta name="keywords" content="温格科技,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
+		<meta name="description" content="温格科技-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/welcome.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/common.css">
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/joincss.css">
@@ -17,7 +17,6 @@
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/layer.css">
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="__PUBLIC__/styles/js/jquery.bxslider.min.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/js/layer.js"></script>
 	</head>
 	<body>
 		<style>
@@ -26,9 +25,9 @@
 		</style>
 		<div class="g-topNav moveDown" style="top: 0px;">
 			<div class="wrapper">
-				<a href="#" target="_self">
+				<a href="#" target="_self">	
 					<div class="m-topLogo ">
-						<h1> 微点应用</h1>
+						<h1> 温格科技</h1>
 					</div>
 				</a>
 				<div class="m-topNav ">
@@ -140,9 +139,11 @@
 
                 <div class="app_info_item">
                     <a href="<?=url('manage/passport/login');?>"><div class="lt btn_use">开始试用(<?=$detail->expire_day?>天)</div>
-                    <div class="rt btn_pay" style="margin-left: 40px;">立即购买</div>
                     </a>
-                    <a style="padding-left: 40px; color: red;font-weight: bold;" href="/home/news/detail/news_id/14.html">不懂如何使用？</a>
+                    <div style="margin-left: 40px;color:red">
+                       由于直接购买模板可能会造成需求纠纷，不支持线上购买，请联系相关人员详谈
+                    </div>
+                    <a style="padding-left: 40px; color: red;font-weight: bold;" href="__ROOT__/home/news/detail/news_id/14.html">不懂如何使用？</a>
                 </div>
             </div>
         </div>
@@ -289,16 +290,16 @@
 					<dl>
 						<dt>联系我们</dt>
 						<dd>
-							<a href="javascript:;">联系电话：15169991113</a>
+							<a href="javascript:;">联系电话：18200539226</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">QQ：67930603</a>
+							<a href="javascript:;">QQ：861136242</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">微信：yanervip</a>
+							<a href="javascript:;">微信：Brian_YSQ</a>
 						</dd>
 						<dd>
-							<a href="javascript:;">地址：微点应用小程序研发中心</a>
+							<a href="javascript:;">地址：四川成都成华区国光一环大厦</a>
 						</dd>
 					</dl>
 				</div>
@@ -314,7 +315,7 @@
 					<div class="links">
 						<p class="line copyright">
 							<span class="slide">
-							Copyright (c)2015 - 2017 微点应用版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
+							Copyright (c)2017 - 2018 温格科技版权所有 版权所有 | 鲁ICP备16033895号-1						</span>
 						</p>
 					</div>
 				</div>
@@ -331,10 +332,10 @@
 
 
 		<div id="toolitembar">
-			<a href="http://wpa.qq.com/msgrd?v=3&uin=67930603&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
+			<a href="http://wpa.qq.com/msgrd?v=3&uin=861136242&site=qq&menu=yes" id="toolitembar-support"><i class="icon-live-help"></i>
 				<span>在线客服</span>
 			</a>
-			<a href="tel:15169991113" id="toolitembar-phone"><i class="icon-call"></i>
+			<a href="tel:18200539226" id="toolitembar-phone"><i class="icon-call"></i>
 				<span>电话咨询</span>
 			</a>
 			<a href="javascript:;" id="toolitembar-info"><i class="icon-info"></i>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\index\index.html";i:1529651119;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\left.html";i:1529650816;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\index\index.html";i:1530002543;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\header.html";i:1529650715;s:72:"D:\soft\Apache24\htdocs\minprogramshop/youge/admin\view\public\left.html";i:1529650816;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<title>微点应用小程序神器系统后台管理中心</title>
+	<title>温格科技小程序神器系统后台管理中心</title>
 	<link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/style.min.css" rel="stylesheet">
 <link href="__PUBLIC__/admin/css/login.min.css" rel="stylesheet">

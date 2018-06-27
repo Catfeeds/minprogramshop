@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\index\index.html";i:1529651439;s:76:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\public\header.html";i:1529651519;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\public\left.html";i:1515142508;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\index\index.html";i:1530084972;s:76:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\public\header.html";i:1529651519;s:74:"D:\soft\Apache24\htdocs\minprogramshop/youge/miniapp\view\public\left.html";i:1515142508;}*/ ?>
 
 <!DOCTYPE html>
 <html>
@@ -160,7 +160,7 @@
         <!--右侧部分开始-->
         <div id="page-wrapper" class="gray-bg dashbard-1">
             <div class="row J_mainContent" style="width: 100%; height: 95%; margin:  0 auto; "   id="content-main">
-                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="/miniapp/index/main" frameborder="0"  seamless></iframe>
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="__ROOT__/miniapp/index/main" frameborder="0"  seamless></iframe>
             </div>
         </div>
         <!--右侧部分结束-->

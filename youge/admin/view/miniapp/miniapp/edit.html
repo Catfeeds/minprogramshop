@@ -14,8 +14,8 @@
                                        id="title" name="title" class="form-control"/>
                             </div>
                         </div>
-                        <link rel="stylesheet" type="text/css" href="/public/common/webuploader-0.1.5/webuploader.css">
-                        <script type="text/javascript" src="/public/common/webuploader-0.1.5/webuploader.js"></script>
+                        <link rel="stylesheet" type="text/css" href="__PUBLIC__/common/webuploader-0.1.5/webuploader.css">
+                        <script type="text/javascript" src="__PUBLIC__/common/webuploader-0.1.5/webuploader.js"></script>
 
 
                         <div class="form-group">
@@ -28,7 +28,7 @@
                                     <div id="photoList" class="uploader-list">
                                         <?php if(isset($detail['photo'])){?>
                                         <div class="file-item thumbnail"><img width="110"
-                                                                              src="/attachs/uploads/<?=$detail['photo']?>"><input
+                                                                              src="__ATTACHS__/uploads/<?=$detail['photo']?>"><input
                                                 type="hidden" value="<?=$detail['photo']?>" name="photo" id="photo">
                                         </div>
                                         <?php }?>
@@ -46,7 +46,7 @@
 
                             var uploaderphoto = WebUploader.create({
                                 auto: true,
-                                swf: '/public/admin/Widget/webuploader-0.1.5/Uploader.swf',
+                                swf: '__PUBLIC__/admin/Widget/webuploader-0.1.5/Uploader.swf',
                                 server: '<?=url("upload.upload/index",['mdl'=>"miniapp_photo"])?>',
                                 pick: '#photoPicker',
                                 resize: false,
@@ -205,7 +205,7 @@
                                     <div id="qrcodeList" class="uploader-list">
                                         <?php if(isset($detail['qrcode'])){?>
                                         <div class="file-item thumbnail"><img width="110"
-                                                                              src="/attachs/uploads/<?=$detail['qrcode']?>"><input
+                                                                              src="__ATTACHS__/uploads/<?=$detail['qrcode']?>"><input
                                                 type="hidden" value="<?=$detail['qrcode']?>" name="qrcode" id="qrcode">
                                         </div>
                                         <?php }?>
@@ -220,7 +220,7 @@
                         <script>
                             var uploaderqrcode = WebUploader.create({
                                 auto: true,
-                                swf: '/public/admin/Widget/webuploader-0.1.5/Uploader.swf',
+                                swf: '__PUBLIC__/admin/Widget/webuploader-0.1.5/Uploader.swf',
                                 server: '<?=url("upload.upload/index",['mdl'=>"company_qrcode"])?>',
                                 pick: '#qrcodePicker',
                                 resize: false,
