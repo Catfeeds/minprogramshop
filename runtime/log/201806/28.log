@@ -1,0 +1,242 @@
+[ 2018-06-28T16:41:25+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/
+[ log ] localhost/minprogramshop/ [运行时间：2.130000s][吞吐率：0.47req/s] [内存消耗：3,758.49kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:29+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/shop/index.html
+[ log ] localhost/minprogramshop/home/shop/index.html [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：3,799.93kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'shop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Shop->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\shop\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:31+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/manage/passport/login
+[ log ] localhost/minprogramshop/manage/passport/login [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：2,537.01kb] [文件加载：74]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manage',
+    1 => 'passport',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/shop/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\manage\controller\Passport->login[ D:\soft\Apache24\htdocs\minprogramshop\youge\manage\controller\Passport.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\passport\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:36+08:00 ] 127.0.0.1 127.0.0.1 POST /minprogramshop/manage/passport/login.html
+[ log ] localhost/minprogramshop/manage/passport/login.html [运行时间：0.447000s][吞吐率：2.24req/s] [内存消耗：3,552.31kb] [文件加载：86]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manage',
+    1 => 'passport',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost/minprogramshop/manage/passport/login',
+  'content-length' => '34',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '15520449931',
+  'password' => '188632',
+)
+[ info ] [ RUN ] app\manage\controller\Passport->login[ D:\soft\Apache24\htdocs\minprogramshop\youge\manage\controller\Passport.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:40+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/manage/index/index.html
+[ log ] localhost/minprogramshop/manage/index/index.html [运行时间：0.289000s][吞吐率：3.46req/s] [内存消耗：3,744.16kb] [文件加载：89]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manage',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/manage/passport/login',
+  'cookie' => 'yougememberID=d777hMqZwLt2l5B1fctQEmctD6q9CdiESKXAl%2FG5oimDkVFwy%2BihR36v8P1rjis4ff5w',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\manage\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\manage\controller\Index.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\index\index.html [ array (
+  0 => 'member',
+  1 => 'leftMenus',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:41+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/manage/miniapp/index
+[ log ] localhost/minprogramshop/manage/miniapp/index [运行时间：0.254000s][吞吐率：3.94req/s] [内存消耗：3,868.11kb] [文件加载：90]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manage',
+    1 => 'miniapp',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/manage/index/index.html',
+  'cookie' => 'yougememberID=d777hMqZwLt2l5B1fctQEmctD6q9CdiESKXAl%2FG5oimDkVFwy%2BihR36v8P1rjis4ff5w',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\manage\controller\Miniapp->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\manage\controller\Miniapp.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/manage\view\miniapp\index.html [ array (
+  0 => 'member',
+  1 => 'leftMenus',
+  2 => 'miniapp',
+  3 => 'list',
+  4 => 'page',
+  5 => 'search',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-28T16:41:45+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/manage/miniapp/create.html
+[ log ] localhost/minprogramshop/manage/miniapp/create.html [运行时间：1.531000s][吞吐率：0.65req/s] [内存消耗：3,778.13kb] [文件加载：91]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manage',
+    1 => 'miniapp',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/manage/miniapp/index',
+  'cookie' => 'yougememberID=d777hMqZwLt2l5B1fctQEmctD6q9CdiESKXAl%2FG5oimDkVFwy%2BihR36v8P1rjis4ff5w',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\manage\controller\Miniapp->create[ D:\soft\Apache24\htdocs\minprogramshop\youge\manage\controller\Miniapp.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'member',
+  1 => 'leftMenus',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

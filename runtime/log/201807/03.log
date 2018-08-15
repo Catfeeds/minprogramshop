@@ -1,0 +1,431 @@
+[ 2018-07-03T15:37:09+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/
+[ log ] localhost/minprogramshop/ [运行时间：0.461000s][吞吐率：2.17req/s] [内存消耗：3,758.66kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/
+[ log ] localhost/minprogramshop/ [运行时间：0.354000s][吞吐率：2.82req/s] [内存消耗：3,758.65kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:39:56+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/
+[ log ] localhost/minprogramshop/ [运行时间：0.077000s][吞吐率：12.99req/s] [内存消耗：3,758.65kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:39:58+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/shop/index.html
+[ log ] localhost/minprogramshop/home/shop/index.html [运行时间：0.094000s][吞吐率：10.64req/s] [内存消耗：3,800.32kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'shop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Shop->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\shop\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:01+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/news/index.html
+[ log ] localhost/minprogramshop/home/news/index.html [运行时间：0.266000s][吞吐率：3.76req/s] [内存消耗：3,745.05kb] [文件加载：87]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/shop/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\News->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\news\index.html [ array (
+  0 => 'footer',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:02+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/faq/index.html
+[ log ] localhost/minprogramshop/home/faq/index.html [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,517.23kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'faq',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/news/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Faq->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Faq.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\faq\index.html [ array (
+  0 => 'footer',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:03+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/member/index.html
+[ log ] localhost/minprogramshop/home/member/index.html [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,541.25kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/faq/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Member->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Member.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\member\index.html [ array (
+  0 => 'footer',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:04+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/about/index.html
+[ log ] localhost/minprogramshop/home/about/index.html [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,509.25kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/member/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\About->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\About.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\about\index.html [ array (
+  0 => 'footer',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:05+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/index/index.html
+[ log ] localhost/minprogramshop/home/index/index.html [运行时间：0.064000s][吞吐率：15.63req/s] [内存消耗：3,759.36kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/about/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:06+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/shop/index.html
+[ log ] localhost/minprogramshop/home/shop/index.html [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,800.46kb] [文件加载：84]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'shop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/index/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Shop->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\shop\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:07+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/news/index.html
+[ log ] localhost/minprogramshop/home/news/index.html [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：3,745.05kb] [文件加载：87]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/shop/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\News->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\news\index.html [ array (
+  0 => 'footer',
+  1 => 'page',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:08+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/faq/index.html
+[ log ] localhost/minprogramshop/home/faq/index.html [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,517.23kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'faq',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/news/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Faq->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Faq.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\faq\index.html [ array (
+  0 => 'footer',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-03T18:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /minprogramshop/home/member/index.html
+[ log ] localhost/minprogramshop/home/member/index.html [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,541.25kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/minprogramshop/home/faq/index.html',
+  'cookie' => 'pgv_pvi=1975168000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Member->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\home\controller\Member.php ]
+[ info ] [ VIEW ] D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\member\index.html [ array (
+  0 => 'footer',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
