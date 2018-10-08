@@ -35,7 +35,6 @@ class Miniapp extends Common
     }
     public function callback()
     {
-
         $auth_code = $this->request->get('auth_code');
         if (empty($auth_code)) {
             $this->error('授权失败！');

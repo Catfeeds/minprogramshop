@@ -427,7 +427,7 @@ class MiniApp{
             'user_desc' => '0000',
         ];
         $data = json_encode($data);
-        $data =str_replace('0000', '微 点 应 用 技 术 支 持', $data);
+        $data =str_replace('0000', '温 格 科 技 技 术 支 持', $data);
         $result = $this->curl->post($api, $data);
         //var_dump($result);
         //if($result['errcode']!=0){

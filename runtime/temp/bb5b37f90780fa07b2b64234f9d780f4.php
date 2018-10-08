@@ -1,11 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1530066963;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1530072003;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\index\index.html";i:1530066963;s:66:"D:\soft\Apache24\htdocs\minprogramshop/youge/home\view\layout.html";i:1537248009;}*/ ?>
 <!DOCTYPE html>
 <html dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>温格科技</title>
+		<title>四川温格科技有限公司</title>
 		<meta name="keywords" content="温格科技,微信小程序,小程序,小程序源码,小程序开发,拼团小程序,商城小程序,门店小程序,小程序代理,小程序加盟,微信小程序开发" />
 		<meta name="description" content="温格科技-微信小程序生成平台|微信小程序开发|微信小程序源码|小程序代理" />
 		<link type="text/css" rel="stylesheet" href="__PUBLIC__/styles/css/welcome.css">

@@ -1,0 +1,1465 @@
+[ 2018-09-27T10:07:02+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,319.52kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]fopen(/var/www/html/testLog.txt): failed to open stream: No such file or directory[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:13]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:07:31+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,366.07kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:07:33+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,366.07kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:07:42+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,365.83kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:07:43+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,365.83kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=4',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:07:49+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,327.81kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]app\weixin\controller\Auth::index(): Failed opening required '/weixinsign/WXBizMsgCrypt.php' (include_path='.;C:\php\pear')[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:17]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:08:05+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,327.81kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]app\weixin\controller\Auth::index(): Failed opening required '\weixinsign/WXBizMsgCrypt.php' (include_path='.;C:\php\pear')[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:17]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:08:06+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,327.81kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]app\weixin\controller\Auth::index(): Failed opening required '\weixinsign/WXBizMsgCrypt.php' (include_path='.;C:\php\pear')[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:17]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:08:10+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,365.83kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:09:04+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,366.37kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:09:20+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:05+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:06+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=12',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:07+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:07+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:08+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=15',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:19+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:20+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:21+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=18',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:21+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:10:22+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,366.38kb] [文件加载：79]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\weixin\controller\WXBizMsgCrypt' not found[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:14:11+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,366.78kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=22',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:21]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:17:16+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,320.07kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=23',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]fopen(C:\Users\Default\Desktop): failed to open stream: Permission denied[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:13]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:17:43+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,366.98kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:21]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:18:28+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,366.99kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=25',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:21]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:19:34+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,366.97kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=26',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:21]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:20:54+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,367.06kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=27',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:21]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:24:33+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,017.81kb] [文件加载：66]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=28',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ':', expecting ',' or ';'[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:12]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:25:08+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：2,017.81kb] [文件加载：66]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=29',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ':', expecting ',' or ';'[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:20]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:25:09+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,017.81kb] [文件加载：66]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=30',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ':', expecting ',' or ';'[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:20]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:26:17+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：2,360.11kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=31',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:26:19+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,360.11kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=32',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:26:30+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,360.14kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=33',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:18]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:27:31+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：2,361.05kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=34',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class DOMDocument could not be converted to string[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:50]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:28:57+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,313.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=35',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timeStamp[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:14]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:29:43+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,369.22kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=36',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]app\weixin\controller\Auth::index(): Failed opening required '/weixinsign/pkcs7Encoder.php' (include_path='.;C:\php\pear')[D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php:57]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:30:53+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,393.13kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=37',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:31:06+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,393.23kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=38',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:31:16+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,393.23kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=39',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:31:32+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：2,393.23kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=40',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:36:50+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,393.23kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=41',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
+[ 2018-09-27T10:42:10+08:00 ] ::1 ::1 GET /minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e
+[ log ] localhost/minprogramshop/weixin/Auth/index?signature=4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7&timestamp=1538011124&nonce=41365003&encrypt_type=aes&msg_signature=12b80a53257d4facacf28c02b31a2ea7fe8c247e [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,392.84kb] [文件加载：80]
+[ info ] [ LANG ] D:\soft\Apache24\htdocs\minprogramshop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixin',
+    1 => 'Auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=111872281.2834290831896422400.1536283749730.831; monitor_count=43',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4a9855e49445e9f77b58c23b4a6d85f9fd88f9b7',
+  'timestamp' => '1538011124',
+  'nonce' => '41365003',
+  'encrypt_type' => 'aes',
+  'msg_signature' => '12b80a53257d4facacf28c02b31a2ea7fe8c247e',
+)
+[ info ] [ RUN ] app\weixin\controller\Auth->index[ D:\soft\Apache24\htdocs\minprogramshop\youge\weixin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot declare class PKCS7Encoder, because the name is already in use[D:\soft\Apache24\htdocs\minprogramshop\weixinsign\pkcs7Encoder.php:10]
+
+---------------------------------------------------------------
